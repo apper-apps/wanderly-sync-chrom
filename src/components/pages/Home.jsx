@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import ApperIcon from '@/components/ApperIcon'
 import PackageCard from '@/components/molecules/PackageCard'
 import SearchBar from '@/components/molecules/SearchBar'
+import WorldMap from '@/components/molecules/WorldMap'
 import Loading from '@/components/ui/Loading'
 import Error from '@/components/ui/Error'
 import { packageService } from '@/services/api/packageService'
@@ -69,10 +70,11 @@ const Home = () => {
   }
 
 return (
-    <div className="min-h-screen">
+<div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-background via-surface to-secondary/20 hero-bg-travelers">
-        <div className="container mx-auto px-4">
+      <section className="relative py-20 bg-gradient-to-br from-background via-surface to-secondary/20 hero-bg-travelers overflow-hidden">
+        <WorldMap />
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
