@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}",
+"./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
@@ -10,16 +10,20 @@ export default {
         'display': ['Fredoka One', 'cursive'],
         'body': ['Plus Jakarta Sans', 'sans-serif'],
       },
-      colors: {
+colors: {
         primary: '#B19CD9',
         secondary: '#FFE4E1',
-        accent: '#87CEEB',
         surface: '#F0E6FF',
         background: '#FAF9FF',
+        accent: '#87CEEB',
         success: '#98D8AA',
-        warning: '#FFD3B6',
         error: '#FFB3BA',
+        warning: '#FFD3B6',
         info: '#A8E6CF'
+      },
+      scale: {
+        '97': '0.97',
+        '102': '1.02',
       },
       boxShadow: {
         'clay': '0 8px 32px rgba(177, 156, 217, 0.15), inset 0 4px 8px rgba(255, 255, 255, 0.8)',
