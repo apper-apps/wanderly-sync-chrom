@@ -1,0 +1,434 @@
+[
+  {
+    "Id": 1,
+    "title": "Magical Manali Adventure",
+    "destination": "Manali, Himachal Pradesh",
+    "category": "mountains",
+    "travelStyle": "adventure",
+    "price": 18500,
+    "duration": {
+      "days": 5,
+      "nights": 4
+    },
+    "maxGroupSize": 10,
+    "groupsAvailable": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=800&h=600&fit=crop"
+    ],
+    "description": "Experience the breathtaking beauty of Manali with snow-capped peaks, adventure activities, and serene landscapes. Perfect for those seeking mountain adventures and peaceful moments in nature.",
+    "highlights": [
+      "Rohtang Pass adventure",
+      "Solang Valley activities",
+      "River rafting in Beas",
+      "Local temple visits",
+      "Mountain trekking"
+    ],
+    "inclusions": [
+      "Accommodation",
+      "All meals",
+      "Transportation",
+      "Adventure activities",
+      "Professional guide",
+      "Travel insurance"
+    ],
+    "exclusions": [
+      "Personal expenses",
+      "Additional activities",
+      "Laundry services",
+      "Room service"
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival & Local Sightseeing",
+        "location": "Manali",
+        "description": "Arrive in Manali and check into your hotel. Explore the local markets and visit Hadimba Temple. Evening at leisure.",
+        "activities": ["Hotel check-in", "Hadimba Temple visit", "Mall Road exploration"]
+      },
+      {
+        "title": "Rohtang Pass Adventure",
+        "location": "Rohtang Pass",
+        "description": "Early morning departure to Rohtang Pass. Enjoy snow activities and stunning mountain views. Return to Manali by evening.",
+        "activities": ["Snow activities", "Mountain photography", "Local cuisine tasting"]
+      },
+      {
+        "title": "Solang Valley Thrills",
+        "location": "Solang Valley",
+        "description": "Adventure day at Solang Valley with paragliding, zorbing, and cable car rides. Enjoy the panoramic mountain views.",
+        "activities": ["Paragliding", "Zorbing", "Cable car ride", "Mountain biking"]
+      },
+      {
+        "title": "River Rafting & Local Culture",
+        "location": "Beas River",
+        "description": "Experience white water rafting on the Beas River. Visit local villages and interact with friendly locals.",
+        "activities": ["River rafting", "Village visit", "Cultural interaction", "Traditional lunch"]
+      },
+      {
+        "title": "Departure",
+        "location": "Manali",
+        "description": "Check out from hotel and depart for your onward journey with beautiful memories of Manali.",
+        "activities": ["Hotel check-out", "Souvenir shopping", "Departure"]
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "title": "Goa Beach Paradise",
+    "destination": "Goa",
+    "category": "beaches",
+    "travelStyle": "relaxation",
+    "price": 15000,
+    "duration": {
+      "days": 4,
+      "nights": 3
+    },
+    "maxGroupSize": 8,
+    "groupsAvailable": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop"
+    ],
+    "description": "Relax on pristine beaches, enjoy water sports, and experience the vibrant nightlife of Goa. Perfect for beach lovers and those seeking a tropical getaway.",
+    "highlights": [
+      "Beautiful beaches",
+      "Water sports activities",
+      "Spice plantation visit",
+      "Vibrant nightlife",
+      "Portuguese heritage sites"
+    ],
+    "inclusions": [
+      "Beach resort stay",
+      "All meals",
+      "Airport transfers",
+      "Water sports",
+      "Sightseeing tours",
+      "Welcome drink"
+    ],
+    "exclusions": [
+      "Alcoholic beverages",
+      "Personal expenses",
+      "Additional water sports",
+      "Spa treatments"
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival & Beach Relaxation",
+        "location": "North Goa",
+        "description": "Arrive in Goa and check into your beach resort. Spend the afternoon relaxing on the beach and enjoying the sunset.",
+        "activities": ["Resort check-in", "Beach relaxation", "Sunset viewing", "Welcome dinner"]
+      },
+      {
+        "title": "Water Sports & Beach Fun",
+        "location": "Calangute Beach",
+        "description": "Full day of water sports activities including jet skiing, parasailing, and banana boat rides. Beach lunch and evening at leisure.",
+        "activities": ["Jet skiing", "Parasailing", "Banana boat ride", "Beach volleyball"]
+      },
+      {
+        "title": "Heritage & Culture",
+        "location": "Old Goa",
+        "description": "Explore the rich Portuguese heritage of Old Goa. Visit churches, museums, and local markets. Spice plantation tour in the afternoon.",
+        "activities": ["Church visits", "Museum tour", "Spice plantation", "Local market shopping"]
+      },
+      {
+        "title": "Departure",
+        "location": "Goa",
+        "description": "Check out from resort and depart for your onward journey with wonderful memories of Goa.",
+        "activities": ["Resort check-out", "Last-minute shopping", "Departure"]
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "title": "Rajasthan Royal Heritage",
+    "destination": "Jaipur, Rajasthan",
+    "category": "heritage",
+    "travelStyle": "cultural",
+    "price": 22000,
+    "duration": {
+      "days": 6,
+      "nights": 5
+    },
+    "maxGroupSize": 12,
+    "groupsAvailable": 2,
+    "images": [
+      "https://images.unsplash.com/photo-1599661046827-dacdc57e2018?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1573160103600-ab16c2ab969f?w=800&h=600&fit=crop"
+    ],
+    "description": "Immerse yourself in the royal heritage of Rajasthan with magnificent palaces, colorful markets, and rich culture. Experience the grandeur of the Pink City.",
+    "highlights": [
+      "Amber Fort visit",
+      "City Palace tour",
+      "Hawa Mahal photography",
+      "Traditional Rajasthani cuisine",
+      "Cultural performances"
+    ],
+    "inclusions": [
+      "Heritage hotel stay",
+      "All meals",
+      "Private transportation",
+      "Monument entry fees",
+      "Cultural shows",
+      "Professional guide"
+    ],
+    "exclusions": [
+      "Personal shopping",
+      "Additional tours",
+      "Beverages",
+      "Tips and gratuities"
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival & City Introduction",
+        "location": "Jaipur",
+        "description": "Arrive in Jaipur and check into your heritage hotel. Evening orientation and welcome dinner with traditional Rajasthani cuisine.",
+        "activities": ["Hotel check-in", "City orientation", "Traditional dinner", "Cultural briefing"]
+      },
+      {
+        "title": "Amber Fort & City Palace",
+        "location": "Jaipur",
+        "description": "Visit the magnificent Amber Fort and explore the City Palace complex. Learn about royal history and architecture.",
+        "activities": ["Amber Fort tour", "City Palace visit", "Museum exploration", "Royal artifacts viewing"]
+      },
+      {
+        "title": "Hawa Mahal & Local Markets",
+        "location": "Jaipur",
+        "description": "Photograph the iconic Hawa Mahal and explore the bustling local markets. Shop for traditional handicrafts and textiles.",
+        "activities": ["Hawa Mahal photography", "Market exploration", "Handicraft shopping", "Local interaction"]
+      },
+      {
+        "title": "Nahargarh Fort & Sunset",
+        "location": "Jaipur",
+        "description": "Visit Nahargarh Fort for panoramic city views and enjoy a spectacular sunset over the Pink City.",
+        "activities": ["Fort visit", "Sunset viewing", "City photography", "Cultural performance"]
+      },
+      {
+        "title": "Jantar Mantar & Free Time",
+        "location": "Jaipur",
+        "description": "Explore the astronomical instruments at Jantar Mantar. Afternoon free for leisure activities or optional tours.",
+        "activities": ["Observatory visit", "Scientific exploration", "Free time", "Optional activities"]
+      },
+      {
+        "title": "Departure",
+        "location": "Jaipur",
+        "description": "Check out from hotel and depart for your onward journey with royal memories of Rajasthan.",
+        "activities": ["Hotel check-out", "Souvenir shopping", "Departure"]
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "title": "Kerala Backwater Bliss",
+    "destination": "Alleppey, Kerala",
+    "category": "beaches",
+    "travelStyle": "relaxation",
+    "price": 16500,
+    "duration": {
+      "days": 4,
+      "nights": 3
+    },
+    "maxGroupSize": 6,
+    "groupsAvailable": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1599661046827-dacdc57e2018?w=800&h=600&fit=crop"
+    ],
+    "description": "Experience the tranquil backwaters of Kerala with houseboat cruises, traditional cuisine, and lush green landscapes. Perfect for relaxation and rejuvenation.",
+    "highlights": [
+      "Houseboat cruise",
+      "Backwater exploration",
+      "Traditional Kerala cuisine",
+      "Ayurvedic spa treatment",
+      "Village visits"
+    ],
+    "inclusions": [
+      "Houseboat accommodation",
+      "All meals",
+      "Backwater cruise",
+      "Airport transfers",
+      "Ayurvedic massage",
+      "Village tour"
+    ],
+    "exclusions": [
+      "Personal expenses",
+      "Additional spa treatments",
+      "Alcoholic beverages",
+      "Optional tours"
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival & Houseboat Boarding",
+        "location": "Alleppey",
+        "description": "Arrive in Alleppey and board your traditional houseboat. Begin your backwater cruise with lunch onboard.",
+        "activities": ["Houseboat boarding", "Backwater cruise", "Traditional lunch", "Relaxation"]
+      },
+      {
+        "title": "Backwater Exploration",
+        "location": "Alleppey Backwaters",
+        "description": "Full day exploring the serene backwaters, visiting local villages, and enjoying traditional Kerala cuisine.",
+        "activities": ["Village visits", "Bird watching", "Traditional cooking", "Cultural interaction"]
+      },
+      {
+        "title": "Ayurvedic Wellness",
+        "location": "Alleppey",
+        "description": "Experience authentic Ayurvedic treatments and spa therapies. Afternoon free for relaxation or optional activities.",
+        "activities": ["Ayurvedic massage", "Spa treatments", "Meditation session", "Free time"]
+      },
+      {
+        "title": "Departure",
+        "location": "Alleppey",
+        "description": "Check out from houseboat and depart for your onward journey with peaceful memories of Kerala.",
+        "activities": ["Houseboat check-out", "Last-minute shopping", "Departure"]
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "title": "Ladakh High Altitude Adventure",
+    "destination": "Leh, Ladakh",
+    "category": "mountains",
+    "travelStyle": "adventure",
+    "price": 28000,
+    "duration": {
+      "days": 7,
+      "nights": 6
+    },
+    "maxGroupSize": 8,
+    "groupsAvailable": 2,
+    "images": [
+      "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop"
+    ],
+    "description": "Explore the rugged beauty of Ladakh with high-altitude lakes, ancient monasteries, and breathtaking mountain passes. An adventure for the bold and adventurous.",
+    "highlights": [
+      "Pangong Lake visit",
+      "Nubra Valley exploration",
+      "Ancient monasteries",
+      "High-altitude passes",
+      "Desert safari"
+    ],
+    "inclusions": [
+      "Accommodation",
+      "All meals",
+      "Transportation",
+      "Inner line permits",
+      "Professional guide",
+      "Oxygen support"
+    ],
+    "exclusions": [
+      "Personal equipment",
+      "Additional activities",
+      "Medical expenses",
+      "Emergency evacuation"
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival & Acclimatization",
+        "location": "Leh",
+        "description": "Arrive in Leh and rest for acclimatization. Light activities and medical check-up to ensure fitness for high altitude.",
+        "activities": ["Airport transfer", "Medical check-up", "Rest and acclimatization", "Light walking"]
+      },
+      {
+        "title": "Leh Local Sightseeing",
+        "location": "Leh",
+        "description": "Explore Leh Palace, Shanti Stupa, and local markets. Continue acclimatization with moderate activities.",
+        "activities": ["Leh Palace visit", "Shanti Stupa", "Market exploration", "Cultural center"]
+      },
+      {
+        "title": "Pangong Lake Excursion",
+        "location": "Pangong Lake",
+        "description": "Drive to the famous Pangong Lake through Chang La pass. Enjoy the crystal-clear blue waters and stunning landscapes.",
+        "activities": ["Chang La pass", "Pangong Lake visit", "Photography", "Camping"]
+      },
+      {
+        "title": "Nubra Valley Adventure",
+        "location": "Nubra Valley",
+        "description": "Cross Khardung La pass to reach Nubra Valley. Experience double-humped camel safari and visit Diskit Monastery.",
+        "activities": ["Khardung La pass", "Camel safari", "Diskit Monastery", "Sand dunes"]
+      },
+      {
+        "title": "Monasteries & Culture",
+        "location": "Leh",
+        "description": "Visit ancient monasteries including Hemis, Thiksey, and Shey. Learn about Buddhist culture and traditions.",
+        "activities": ["Hemis Monastery", "Thiksey Monastery", "Shey Palace", "Buddhist teachings"]
+      },
+      {
+        "title": "Magnetic Hill & Confluence",
+        "location": "Leh",
+        "description": "Visit the mysterious Magnetic Hill and confluence of Indus and Zanskar rivers. Experience the unique phenomena.",
+        "activities": ["Magnetic Hill", "River confluence", "Gurudwara visit", "Local cuisine"]
+      },
+      {
+        "title": "Departure",
+        "location": "Leh",
+        "description": "Check out from hotel and depart for your onward journey with unforgettable memories of Ladakh.",
+        "activities": ["Hotel check-out", "Souvenir shopping", "Departure"]
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "title": "Mysore Palace & Gardens",
+    "destination": "Mysore, Karnataka",
+    "category": "heritage",
+    "travelStyle": "cultural",
+    "price": 12000,
+    "duration": {
+      "days": 3,
+      "nights": 2
+    },
+    "maxGroupSize": 10,
+    "groupsAvailable": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1573160103600-ab16c2ab969f?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1599661046827-dacdc57e2018?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop"
+    ],
+    "description": "Discover the royal heritage of Mysore with its magnificent palace, beautiful gardens, and rich cultural traditions. Experience the grandeur of South Indian architecture.",
+    "highlights": [
+      "Mysore Palace tour",
+      "Brindavan Gardens",
+      "Chamundi Hill temple",
+      "Traditional silk weaving",
+      "Cultural performances"
+    ],
+    "inclusions": [
+      "Hotel accommodation",
+      "All meals",
+      "Transportation",
+      "Entry fees",
+      "Cultural shows",
+      "Professional guide"
+    ],
+    "exclusions": [
+      "Personal shopping",
+      "Additional tours",
+      "Beverages",
+      "Tips"
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival & Palace Tour",
+        "location": "Mysore",
+        "description": "Arrive in Mysore and check into your hotel. Visit the magnificent Mysore Palace and explore its royal halls and courtyards.",
+        "activities": ["Hotel check-in", "Mysore Palace tour", "Royal halls exploration", "Architecture study"]
+      },
+      {
+        "title": "Gardens & Temple Visit",
+        "location": "Mysore",
+        "description": "Visit the beautiful Brindavan Gardens and Chamundi Hill temple. Enjoy the musical fountain show in the evening.",
+        "activities": ["Brindavan Gardens", "Chamundi Hill temple", "Musical fountain", "Evening prayers"]
+      },
+      {
+        "title": "Silk Weaving & Departure",
+        "location": "Mysore",
+        "description": "Visit a traditional silk weaving center and learn about Mysore silk. Check out and depart for your onward journey.",
+        "activities": ["Silk weaving center", "Traditional crafts", "Shopping", "Departure"]
+      }
+    ]
+  }
+]

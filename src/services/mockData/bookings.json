@@ -1,0 +1,83 @@
+[
+  {
+    "Id": 1,
+    "packageId": 1,
+    "groupId": 1,
+    "travelers": [
+      {
+        "name": "John Doe",
+        "email": "john.doe@email.com",
+        "phone": "+91 9876543200",
+        "age": 28
+      },
+      {
+        "name": "Jane Doe",
+        "email": "jane.doe@email.com",
+        "phone": "+91 9876543201",
+        "age": 26
+      }
+    ],
+    "departureDate": "2024-06-15",
+    "totalPrice": 43620,
+    "specialRequests": "Vegetarian meals preferred",
+    "emergencyContact": {
+      "name": "Robert Doe",
+      "phone": "+91 9876543202",
+      "relation": "Father"
+    },
+    "bookingDate": "2024-05-15T10:30:00Z",
+    "status": "confirmed"
+  },
+  {
+    "Id": 2,
+    "packageId": 2,
+    "groupId": null,
+    "travelers": [
+      {
+        "name": "Alice Smith",
+        "email": "alice.smith@email.com",
+        "phone": "+91 9876543203",
+        "age": 24
+      }
+    ],
+    "departureDate": "2024-07-15",
+    "totalPrice": 17700,
+    "specialRequests": "Beach-facing room preferred",
+    "emergencyContact": {
+      "name": "Mary Smith",
+      "phone": "+91 9876543204",
+      "relation": "Mother"
+    },
+    "bookingDate": "2024-05-20T14:15:00Z",
+    "status": "confirmed"
+  },
+  {
+    "Id": 3,
+    "packageId": 3,
+    "groupId": 5,
+    "travelers": [
+      {
+        "name": "David Kumar",
+        "email": "david.kumar@email.com",
+        "phone": "+91 9876543205",
+        "age": 32
+      },
+      {
+        "name": "Lisa Kumar",
+        "email": "lisa.kumar@email.com",
+        "phone": "+91 9876543206",
+        "age": 29
+      }
+    ],
+    "departureDate": "2024-06-25",
+    "totalPrice": 51840,
+    "specialRequests": "Photography guide needed",
+    "emergencyContact": {
+      "name": "Raj Kumar",
+      "phone": "+91 9876543207",
+      "relation": "Brother"
+    },
+    "bookingDate": "2024-05-18T09:45:00Z",
+    "status": "confirmed"
+  }
+]

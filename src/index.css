@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* React Toastify Styling */
+@import 'react-toastify/dist/ReactToastify.css';
+
+/* Custom toast styling */
+.Toastify__toast {
+  @apply !bg-surface !text-gray-800 !rounded-2xl !shadow-clay !border-0 !min-h-[60px] !max-w-sm;
+}
+
+.Toastify__toast--success {
+  @apply !bg-success !text-white;
+}
+
+.Toastify__toast--error {
+  @apply !bg-error !text-white;
+}
+
+.Toastify__toast--warning {
+  @apply !bg-warning !text-white;
+}
+
+.Toastify__toast--info {
+  @apply !bg-info !text-white;
+}
+
+.Toastify__close-button {
+  @apply !text-current !opacity-70 hover:!opacity-100;
+}
+
+.Toastify__toast-container {
+  @apply !z-[9999];
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-surface rounded-full;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary/80;
+}
+
+/* Custom focus styles */
+.focus-clay:focus {
+  @apply outline-none ring-4 ring-primary/30;
+}
+
+/* Custom clay button styles */
+.btn-clay {
+  @apply rounded-xl shadow-clay transition-all duration-300 ease-out;
+}
+
+.btn-clay:hover {
+  @apply scale-102 shadow-clay-lg;
+}
+
+.btn-clay:active {
+  @apply scale-97 shadow-clay-pressed;
+}
+
+/* Custom input styles */
+.input-clay {
+  @apply rounded-xl border-0 shadow-clay-pressed bg-surface/50 text-gray-800 placeholder-gray-500 focus:ring-2 focus:ring-primary/30 focus:shadow-clay transition-all duration-300;
+}
+
+/* Custom card styles */
+.card-clay {
+  @apply rounded-2xl shadow-clay bg-surface/80 backdrop-blur-sm border border-white/20;
+}
+
+.card-clay:hover {
+  @apply shadow-clay-lg scale-[1.02];
+}
+
+/* Smooth transitions for all elements */
+* {
+  transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+/* Base font smoothing */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

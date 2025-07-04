@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "packageId": 1,
+    "destination": "Manali, Himachal Pradesh",
+    "departureDate": "2024-06-15",
+    "maxMembers": 8,
+    "currentMembers": 5,
+    "leader": {
+      "name": "Rahul Sharma",
+      "email": "rahul.sharma@email.com",
+      "phone": "+91 9876543210"
+    },
+    "description": "Adventure enthusiasts group looking for thrill-seekers to join our Manali expedition. We love hiking, paragliding, and mountain photography!",
+    "status": "open"
+  },
+  {
+    "Id": 2,
+    "packageId": 1,
+    "destination": "Manali, Himachal Pradesh",
+    "departureDate": "2024-07-02",
+    "maxMembers": 10,
+    "currentMembers": 8,
+    "leader": {
+      "name": "Priya Patel",
+      "email": "priya.patel@email.com",
+      "phone": "+91 9876543211"
+    },
+    "description": "Friendly group of nature lovers planning a peaceful mountain retreat. Perfect for those who enjoy scenic beauty and relaxation.",
+    "status": "open"
+  },
+  {
+    "Id": 3,
+    "packageId": 2,
+    "destination": "Goa",
+    "departureDate": "2024-06-20",
+    "maxMembers": 6,
+    "currentMembers": 4,
+    "leader": {
+      "name": "Arjun Reddy",
+      "email": "arjun.reddy@email.com",
+      "phone": "+91 9876543212"
+    },
+    "description": "Beach lovers group ready to soak up the sun in Goa! We're into water sports, beach parties, and good vibes.",
+    "status": "open"
+  },
+  {
+    "Id": 4,
+    "packageId": 2,
+    "destination": "Goa",
+    "departureDate": "2024-07-10",
+    "maxMembers": 8,
+    "currentMembers": 6,
+    "leader": {
+      "name": "Sneha Gupta",
+      "email": "sneha.gupta@email.com",
+      "phone": "+91 9876543213"
+    },
+    "description": "Relaxed group looking for a chill Goa experience. We prefer peaceful beaches, local culture, and authentic cuisine.",
+    "status": "open"
+  },
+  {
+    "Id": 5,
+    "packageId": 3,
+    "destination": "Jaipur, Rajasthan",
+    "departureDate": "2024-06-25",
+    "maxMembers": 12,
+    "currentMembers": 9,
+    "leader": {
+      "name": "Vikram Singh",
+      "email": "vikram.singh@email.com",
+      "phone": "+91 9876543214"
+    },
+    "description": "Heritage and culture enthusiasts group exploring the royal history of Rajasthan. Perfect for history buffs and photography lovers.",
+    "status": "open"
+  },
+  {
+    "Id": 6,
+    "packageId": 4,
+    "destination": "Alleppey, Kerala",
+    "departureDate": "2024-07-05",
+    "maxMembers": 6,
+    "currentMembers": 4,
+    "leader": {
+      "name": "Maya Nair",
+      "email": "maya.nair@email.com",
+      "phone": "+91 9876543215"
+    },
+    "description": "Wellness-focused group seeking tranquility in Kerala's backwaters. We enjoy meditation, yoga, and healthy living.",
+    "status": "open"
+  },
+  {
+    "Id": 7,
+    "packageId": 5,
+    "destination": "Leh, Ladakh",
+    "departureDate": "2024-08-01",
+    "maxMembers": 6,
+    "currentMembers": 3,
+    "leader": {
+      "name": "Kiran Thakur",
+      "email": "kiran.thakur@email.com",
+      "phone": "+91 9876543216"
+    },
+    "description": "Experienced trekkers and adventure seekers ready for high-altitude challenges. Looking for fit and adventurous companions.",
+    "status": "open"
+  },
+  {
+    "Id": 8,
+    "packageId": 6,
+    "destination": "Mysore, Karnataka",
+    "departureDate": "2024-06-30",
+    "maxMembers": 8,
+    "currentMembers": 5,
+    "leader": {
+      "name": "Anita Raj",
+      "email": "anita.raj@email.com",
+      "phone": "+91 9876543217"
+    },
+    "description": "Cultural exploration group interested in South Indian heritage, architecture, and traditional arts. Perfect for culture enthusiasts.",
+    "status": "open"
+  }
+]
