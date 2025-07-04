@@ -68,10 +68,10 @@ const Home = () => {
     )
   }
 
-  return (
+return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-background via-surface to-secondary/20">
+      <section className="relative py-20 bg-gradient-to-br from-background via-surface to-secondary/20 hero-bg-travelers">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <motion.h1
