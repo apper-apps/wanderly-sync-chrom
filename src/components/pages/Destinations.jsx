@@ -215,12 +215,12 @@ const Destinations = () => {
         </div>
       </div>
 
-      {/* Main Content */}
-      <div className="container mx-auto px-4 py-8">
+{/* Main Content */}
+      <div className="container mx-auto px-4 py-8 relative">
         <div className="flex gap-8">
           {/* Desktop Sidebar */}
           <div className="hidden lg:block w-80 flex-shrink-0">
-            <div className="card-clay p-6 sticky top-24">
+            <div className="card-clay p-6 sticky top-8 max-h-[calc(100vh-8rem)] overflow-y-auto">
               <FilterSidebar
                 filters={filters}
                 onFiltersChange={handleFiltersChange}
@@ -231,15 +231,20 @@ const Destinations = () => {
           </div>
 
           {/* Mobile Filter Sidebar */}
-          <FilterSidebar
-            filters={filters}
-            onFiltersChange={handleFiltersChange}
-            isOpen={isFilterOpen}
-            onClose={() => setIsFilterOpen(false)}
-          />
+          <div className={`lg:hidden fixed inset-0 z-50 transition-opacity duration-300 ${isFilterOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
+            <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" onClick={() => setIsFilterOpen(false)} />
+            <div className="relative z-10">
+              <FilterSidebar
+                filters={filters}
+                onFiltersChange={handleFiltersChange}
+                isOpen={isFilterOpen}
+                onClose={() => setIsFilterOpen(false)}
+              />
+            </div>
+          </div>
 
           {/* Main Content Area */}
-          <div className="flex-1">
+          <div className="flex-1 min-w-0">
             {/* Toolbar */}
             <div className="flex items-center justify-between mb-6">
               <div className="flex items-center gap-4">
