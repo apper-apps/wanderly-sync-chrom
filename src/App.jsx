@@ -7,6 +7,7 @@ import PackageDetails from '@/components/pages/PackageDetails'
 import GroupTravel from '@/components/pages/GroupTravel'
 import Booking from '@/components/pages/Booking'
 import BookingConfirmation from '@/components/pages/BookingConfirmation'
+import MyTrips from '@/components/pages/MyTrips'
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/destinations" element={<Destinations />} />
           <Route path="/package/:id" element={<PackageDetails />} />
-          <Route path="/group-travel" element={<GroupTravel />} />
+<Route path="/group-travel" element={<GroupTravel />} />
           <Route path="/booking/:id" element={<Booking />} />
           <Route path="/booking-confirmation" element={<BookingConfirmation />} />
+          <Route path="/my-trips" element={<MyTrips />} />
         </Route>
       </Routes>
       <ToastContainer
